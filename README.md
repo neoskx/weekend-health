@@ -10,9 +10,11 @@
 - Iterate over the `dictionary` array and check if the char count of the word is less than or equal to the char count of the `inputString`
 
 ### Complexity Analysis
+`N` is the length of the `dictionary` array
+`K` is the max count of unique chars of the `dictionary` and `input string`
 
-- Time Complexity: `O(N * K)` where `N` is the length of the `dictionary` array and `K` is the unique chars of the `inputString`
-- Space Complexity: `O(K)` where `K` is the unique chars of the `inputString`
+- Time Complexity: `O(N * K)`
+- Space Complexity: `O(K)`
 
 ## Test cases
 
