@@ -54,8 +54,9 @@ If you have codesandbox account, you can run the test cases in codesandbox
 
 - Click on the `Open in CodeSandbox` badge
 - Click on the `Fork` button
-- Click on the `Convert to devsandbox ` button
+- Click on the `Convert to Devbox ` button
 - Run `npm test` or `yarn test` in the terminal
+![alt text](image-1.png)
 
 #### In local
 
