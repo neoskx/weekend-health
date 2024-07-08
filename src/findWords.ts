@@ -13,7 +13,7 @@
  * findWords("oogd", ["ate", "eat", "tea", "dog", "do", "god", "goo", "go", "good"])
  * // => ["dog", "do", "god", "goo", "go", "good"]
  */
-function findWords(inputString: string, dictionary: string[]): string[] {
+export function findWords(inputString: string, dictionary: string[]): string[] {
   // Get the input string character count map. Pre-compute this to avoid recomputing for each word in the dictionary to improve the performance.
   const charCountMap = getCharsCountMap(inputString);
   // store the words that are an anagram of the input string
