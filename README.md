@@ -26,18 +26,38 @@ Added test cases for the `findWords` function:
    - Add test case listed in the provided doc
    - Add test case for repeated chars in the input string
    - Add test case for complex input string
-     ![alt text](image.png)
 
-## How to run test cases
+If have more time, I will add more test cases to cover all the edge cases
+1. Add test cases that have more complex input string including multiple lower case chars
+2. Add test cases that have more complex dictionary including multiple lower case chars, upper case chars, and special chars
+3. Enhance the validation of the input string and dictionary
 
-### In CodeSandbox
+![alt text](image.png)
+
+## Getting started
+### Forder structure
+```
+|-- src
+|   |-- index.ts
+|   |-- findWords.ts
+|-- __tests__
+|   |-- findWords.spec.ts
+```
+1. `src/findWords.ts` - Contains the implementation of the `findWords` function
+2. `src/index.ts` - Export the `findWords` function
+3. `__tests__/findWords.spec.ts` - Contains the test cases for the `findWords` function
+
+### How to run test cases
+
+#### In CodeSandbox
+If you have codesandbox account, you can run the test cases in codesandbox
 
 - Click on the `Open in CodeSandbox` badge
-- Click on the `Tests` tab
-- Click on the `Run All Tests` button
-- Check the test results
+- Click on the `Fork` button
+- Click on the `Convert to devsandbox ` button
+- Run `npm test` or `yarn test` in the terminal
 
-### In local
+#### In local
 
 - Clone the repository
 - Run `npm install` or `yarn install`
